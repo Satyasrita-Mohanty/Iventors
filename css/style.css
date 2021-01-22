@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+::selection {
+  background:#c1928b;
+    color:#fff;/* WebKit/Blink Browsers */
+}
+::-moz-selection {
+   background:#c1928b;
+    color:#fff;/* Gecko Browsers */
+}
+*{
+    box-sizing: border-box;
+}
+::selection {
+  background:#c1928b;
+    color:#fff;/* WebKit/Blink Browsers */
+}
+::-moz-selection {
+   background:#c1928b;
+    color:#fff;/* Gecko Browsers */
+}
+.banner{
+    background-image: url(../images/banner1.jpg);
+    background-repeat: no-repeat;
+    height: 660px;
+    background-size: cover;
+}
+
+nav{
+    padding: 0;
+    margin: 0;
+}
+.jumbotron-header {
+    
+    padding: 10px 0px;
+}
+.navLink{
+   font-family: 'Montserrat', sans-serif;
+   color: #ffffff;
+   font-size: 16px;
+   text-decoration: none;
+}
+.navLink:hover{
+   text-decoration: none; 
+   color:  #e8b417;
+}
+.active1{
+   color:  #e8b417;  
+}
+.jumbotron-footer{
+   background:#060506 !important;
+	border-radius: 0px !important;
+	background-repeat: no-repeat;
+    background-size: cover;
+	text-align:left;
+	padding: 100px 0px 100px 0px !important;
+    margin: 0px;
+}
+.footer-heading{
+	color: #fff;
+	font-size:16px;
+	text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+	 font-family: 'Montserrat', sans-serif;
+ 
+}
+.footer-links{
+	color: #eee;
+	font-size:14px;
+	text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    padding: 8px 0px 8px 0px;
+    line-height: 32px !important;
+}
+.footer-links:hover{
+	color: #fff !important;
+    text-decoration: none;
+}
+.footer-social-icon{
+    color: #fff;
+    font-size: 15px;
+}
+.logo{
+     color: #ffffff !important;
+     font-weight: bold;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 33px;
+     letter-spacing: 2px;
+}
+.topPadding{
+    position: relative;
+    top: 170px;
+    left: 30px;
+}
+.bigHeading{
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 58px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    
+}
+.bigHeading span{
+    color:  #e8b417;
+}
+.consulButton{
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color:  #e8b417;
+    padding: 12px 19px;
+    border-radius: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.consulButton:hover{
+    border: 2px solid  #e8b417;
+    background-color: transparent;
+    color: #ffffff;
+    text-decoration: none;
+}
+.navLink1{
+    color: #000000 !important;
+    font-family: 'Montserrat', sans-serif;
+    padding: 18px 10px;
+    font-size: 12px;
+    text-transform: capitalize;
+    margin: 10px 0px;
+    font-size: 14px;
+}
+.navLink1:hover{
+    color: #e8b417 !important;
+    background-color: transparent;
+}
+.img1{
+    background-image: url(../images/im1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    width: 100%;
+}
+.bigHeadingB{
+    color: #e8b417;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.text{
+    padding: 60px 30px;
+}
+.subHeading{
+    font-family: 'Montserrat', sans-serif;
+    color: #4d4d4d;
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 1.6;
+}
+.greyBox{
+    background-color:  #f2f2f2;
+    padding: 80px 0px;
+}
+.consulButtonB:hover{
+    color: #000000;
+}
+.greyBack2{
+    background-color: #d9d9d9;
+    padding: 30px;
+    text-align: center;
+    height: 100%;
+   
+}
+.greyBack2:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+.bannersubHead{
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize; 
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 22px;  
+}
+.bannersubHeadClr{
+    color: #e8b417;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase; 
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 15px;  
+    margin-top: 19px;
+    font-weight: bold;
+}
+.bannersubHeadClrB{
+    color: #000000;
+    font-size: 18px;  
+}
+.marginTop{
+    margin-top: -8px;
+}
+.im2{
+    height: 400px !important;
+    width: 100% !important;
+}
+.formCnt{
+    padding: 10px;
+    border: 2px solid #e8b417;
+    background-color: #f2f2f2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.consulButtonBB{
+    display: block;
+    border-radius: 0px;
+}
+.bannersubHeadClrs{
+    text-transform: lowercase;
+}
+.locationcnt{
+    margin: 20px 0px;
+}
+
+
+
+
+
+
+/* Extra small devices (phones, 300px and down)  start*/
+@media only screen and (max-width: 300px) {
+   
+    
+}
+
+
+/* Extra small devices (phones, 320px and down)  start */
+@media only screen and (max-width: 320px) {
+
+
+}
+
+
+/* Medium devices ( 767px and down) start */
+@media only screen and (max-width: 767px){ 
+
+    .whiteBox{
+        padding-bottom: 20px;
+    }
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up)  start*/
+@media only screen and (min-width: 768px) {
+  .navLink{
+    padding: 0px 10px;     
+  }
+    
+}
+    
+
+/* Medium devices ( 768px and down) start */
+@media only screen and (max-width: 768px){ 
+    .bigHeading{
+        font-size: 35px;
+    }
+    .navLink{
+        font-size: 12px; 
+    }
+    
+
+}
+
+
+
+/* Large devices (laptops/desktops, 992px and up)  start*/
+@media only screen and (min-width: 992px) {
+ .navLink{
+    padding: 0px 4px;     
+ }
+    
+}
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up)  start*/
+@media only screen and (min-width: 1200px) {
+ .carousel-control-prev{
+    left: 454px;
+}
+.carousel-control-next{
+    left: 489px;
+}
+.navLink{
+    padding: 0px 15px;     
+}
+
+ 
+   
+}
